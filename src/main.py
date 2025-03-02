@@ -10,7 +10,7 @@ def main():
         print_menu()
         try:
             chosen_operator = operators_list[(int(input("Choose your operator: "))-1)]
-            if 'result' in locals():
+            if "result" in locals():
                 first_integer = result
             else:
                 first_integer = float(input("Enter the first integer: "))
