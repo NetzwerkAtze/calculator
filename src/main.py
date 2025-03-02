@@ -6,7 +6,7 @@ def main():
     calculation = True
 
  
-    while calculation == True :
+    while calculation == True:
         print_menu()
         try:
             chosen_operator = operators_list[(int(input("Choose your operator: "))-1)]
